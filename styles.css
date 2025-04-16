@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
 
 :root {
-  --primary-color: #dc030a;
-  --primary-color-dark: rgb(135, 6, 12);
+  --primary-color:  rgba(239, 175, 58, 0.912);
+  --primary-color-dark: rgb(135, 98, 6);
   --text-dark: #0a0a0a;
   --text-light: #737373;
   --extra-light: #e5e5e5;
@@ -67,10 +67,28 @@ img {
   display: flex;
   width: 100%;
 }
+h1{
+color:#dc030a;
+
+}
+span{
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
 
 a {
   text-decoration: none;
   transition: 0.3s;
+}
+.pic5{
+  margin: 0px 0px 16px;
+  height: 265px;
+  object-fit: cover;
+}
+.zumba{
+  height: 265px;
 }
 
 html,
@@ -103,14 +121,26 @@ nav {
   background-color: var(--text-dark);
 }
 
-.nav__logo img {
+ .nav__logo img {
   max-width: 90px;
-}
+} 
 
 .nav__menu__btn {
   font-size: 1.5rem;
   color: var(--white);
   cursor: pointer;
+}
+.popo{
+  color: rgba(239, 175, 58, 0.912);
+  font-weight: 800;
+  font-size: 30px;
+}
+.soap{
+  color: white;
+}
+.lolo{
+  margin: 2px;
+  margin-right: 3rem;
 }
 
 .nav__links {
@@ -154,9 +184,11 @@ nav {
       rgba(0, 0, 0, 0.8)
     ),
     url("assets/header.jpg");
+    
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  
 }
 
 .header__container {
@@ -519,7 +551,7 @@ nav {
   margin-inline: auto;
 }
 
-.footer {
+ .footer {
   background-color: var(--text-dark);
 }
 
@@ -622,6 +654,7 @@ nav {
   .about__grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
 
   .session__card {
     padding: 7rem 2rem;
@@ -735,7 +768,28 @@ nav {
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
   }
-}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (width > 1024px) {
   .trainer__grid {
