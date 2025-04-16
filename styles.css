@@ -341,12 +341,15 @@ nav {
 
 .trainer__grid {
   margin-top: 4rem;
-  display: grid;
-  gap: 1rem;
+ display: grid; 
+ margin-left: 40px;
+
 }
 
 .trainer__card img {
   margin-bottom: 1rem;
+  object-fit: cover;
+  
 }
 
 .trainer__card h4 {
