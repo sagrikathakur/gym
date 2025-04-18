@@ -84,8 +84,9 @@ a {
 }
 .pic5{
   margin: 0px 0px 16px;
-  height: 265px;
+  
   object-fit: cover;
+  
 }
 .zumba{
   height: 265px;
