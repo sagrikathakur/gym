@@ -82,12 +82,9 @@ a {
   text-decoration: none;
   transition: 0.3s;
 }
-.pic5{
-  margin: 0px 0px 16px;
+
   
-  object-fit: cover;
-  
-}
+
 .zumba{
   height: 265px;
 }
@@ -343,14 +340,16 @@ nav {
 .trainer__grid {
   margin-top: 4rem;
  display: grid; 
- margin-left: 40px;
-
+ margin-left: 200px;
+ margin-right: 30px;
 }
 
 .trainer__card img {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   object-fit: cover;
-  
+}
+.trainer__card img:hover{
+border: 2px solid black;
 }
 
 .trainer__card h4 {
@@ -557,11 +556,12 @@ nav {
 
  .footer {
   background-color: var(--text-dark);
+
 }
 
 .footer__container {
   display: grid;
-  gap: 4rem 2rem;
+  gap: 3rem 2rem;
 }
 
 .footer__logo img {
@@ -609,7 +609,7 @@ nav {
   gap: 10px;
 }
 
-.footer__col form {
+/* .footer__col form {
   margin-bottom: 2rem;
   width: 100%;
   max-width: 400px;
@@ -618,17 +618,17 @@ nav {
   justify-content: center;
   background-color: var(--white);
   border-radius: 2px;
-}
+} */
 
-.footer__col input {
+/* .footer__col input {
   width: 100%;
   padding-inline: 1rem;
   outline: none;
   border: none;
   color: var(--text-dark);
-}
+} */
 
-.footer__socials {
+/* .footer__socials {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -640,9 +640,9 @@ nav {
   color: var(--primary-color);
   background-color: var(--white);
   border-radius: 100%;
-}
+} */
 
-.footer__socials a:hover {
+/* .footer__socials a:hover {
   color: var(--white);
   background-color: var(--primary-color);
 }
@@ -652,7 +652,7 @@ nav {
   font-size: 0.9rem;
   color: var(--text-light);
   text-align: center;
-}
+} */
 
 @media (width > 540px) {
   .about__grid {
