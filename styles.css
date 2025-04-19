@@ -3,7 +3,7 @@
 :root {
   --primary-color:  rgba(239, 175, 58, 0.912);
   --primary-color-dark: rgb(135, 98, 6);
-  --text-dark: #0a0a0a;
+  --text-dark: black;
   --text-light: #737373;
   --extra-light: #e5e5e5;
   --white: #ffffff;
@@ -340,8 +340,7 @@ nav {
 .trainer__grid {
   margin-top: 4rem;
  display: grid; 
- margin-left: 200px;
- margin-right: 30px;
+ 
 }
 
 .trainer__card img {
@@ -609,7 +608,7 @@ border: 2px solid black;
   gap: 10px;
 }
 
-/* .footer__col form {
+ .footer__col form {
   margin-bottom: 2rem;
   width: 100%;
   max-width: 400px;
@@ -618,17 +617,17 @@ border: 2px solid black;
   justify-content: center;
   background-color: var(--white);
   border-radius: 2px;
-} */
+} 
 
-/* .footer__col input {
+ .footer__col input {
   width: 100%;
   padding-inline: 1rem;
   outline: none;
   border: none;
   color: var(--text-dark);
-} */
+} 
 
-/* .footer__socials {
+ .footer__socials {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -640,9 +639,9 @@ border: 2px solid black;
   color: var(--primary-color);
   background-color: var(--white);
   border-radius: 100%;
-} */
+} 
 
-/* .footer__socials a:hover {
+ .footer__socials a:hover {
   color: var(--white);
   background-color: var(--primary-color);
 }
@@ -652,7 +651,7 @@ border: 2px solid black;
   font-size: 0.9rem;
   color: var(--text-light);
   text-align: center;
-} */
+} 
 
 @media (width > 540px) {
   .about__grid {
